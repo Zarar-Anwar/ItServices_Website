@@ -1,6 +1,110 @@
 <%-include("partials/Header.ejs")%>
 <%-include("partials/Navbar.ejs")%>
-
-
+<section class="uni-banner">
+    <div class="container">
+    <div class="uni-banner-text-area">
+    <h1>Contact Us</h1>
+    <ul>
+    <li><a href="/">Home</a></li>
+    <li>Contact</li>
+    </ul>
+    </div>
+    </div>
+    </section>
+    <section class="contact ptb-100">
+        <div class="container">
+        <div class="row">
+        <div class="col-lg-4">
+        <div class="contact-card-area pr-20">
+        <div class="default-section-title">
+        <h3>Have A Project Between Mind? Say Hi!</h3>
+        <p>
+            Let us tailor a service package that meets your needs. Tell us a little about your business, and we will get back to you with some ideas as soon as possible.</p>
+         </div>
+        <div class="contact-card">
+        <h4><i class="fas fa-map-marker-alt"></i> Address: </h4>
+        <p><a href="https://goo.gl/maps/igV8NqPfViMJx2x69" target="_blank">32 Street Name, New York, USA</a></p>
+        </div>
+        <div class="contact-card">
+        <h4><i class="fas fa-envelope"></i> Email: </h4>
+        <p><a href="mailto:hello@gliter.com">samranahmad09@gmail.com</a></p>
+        </div>
+        <div class="contact-card">
+        <h4><i class="fas fa-phone"></i> Call: </h4>
+        <p><a href="tel:+029222110">+923467887275</a></p>
+        </div>
+        <div class="contact-card">
+        <h4>Opening Time: </h4>
+        <p>Everyday: 8am - 11pm    (GMT: +5:00)</p>
+        </div>
+        <div class="contact-card">
+        <h4>Follow Us:</h4>
+        <ul>
+        <li><a href="https://www.facebook.com/samran456" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/samtech-pk-203414255/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com/samran456" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="col-lg-8">
+        <div class="contact-page-form-area pt-30">
+        <form id="contactForm" novalidate="true">
+        <div class="row">
+        <div class="col-md-6 col-sm-6 col-12">
+        <div class="form-group">
+        <input type="text" class="form-control" placeholder="Name*" id="name" required="" data-error="Please enter your name">
+        <div class="help-block with-errors"></div>
+        </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-12">
+        <div class="form-group">
+        <input type="email" name="email" class="form-control" placeholder="Email*" id="email" required="" data-error="Please enter your Email">
+        <div class="help-block with-errors"></div>
+        </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-12">
+        <div class="form-group">
+        <input type="text" name="phone_number" class="form-control" placeholder="Phone Number*" id="phone_number" required="" data-error="Please enter your phone number">
+        <div class="help-block with-errors"></div>
+        </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-12">
+        <div class="form-group">
+        <input type="text" name="msg_subject" class="form-control" placeholder="Subject-" id="msg_subject" required="" data-error="Please enter your subject">
+        <div class="help-block with-errors"></div>
+        </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-12">
+        <div class="form-group">
+        <input type="text" name="company_name" class="form-control" placeholder="Company Name*" id="company_name" required="" data-error="Please enter your Company Name">
+        <div class="help-block with-errors"></div>
+        </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-12">
+        <div class="form-group">
+        <input type="text" name="website" class="form-control" placeholder="Website Link*" id="website" required="" data-error="Please enter your Website Link">
+        <div class="help-block with-errors"></div>
+        </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-12">
+        <div class="form-group">
+        <textarea name="message" id="message" class="form-control" placeholder="Your Messages.." cols="30" rows="5" required="" data-error="Please enter your message"></textarea>
+        <div class="help-block with-errors"></div>
+        </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-12">
+        <button class="default-button default-button-3 disabled" type="submit" style="pointer-events: all; cursor: pointer;"><span>Send Message <i class="fas fa-arrow-right"></i></span></button>
+        <div id="msgSubmit" class="h6 text-center hidden"></div>
+        <div class="clearfix"></div>
+        </div>
+        </div>
+        </form>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
 
 <%-include("partials/Footer.ejs")%>
