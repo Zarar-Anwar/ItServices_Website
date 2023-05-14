@@ -1,12 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>404 Error</title>
-</head>
-<body>
-    <h1>404 Error Page not Found</h1>
-</body>
-</html>
+<%-include("partials/Header.ejs")%>
+<%-include("partials/Header.ejs")%>
+
+    <section class="error ptb-100">
+        <div class="container">
+        <div class="error-content">
+        <img src="images/error.png" alt="image">
+        <h4>Sorry We Can`t Find That Page!</h4>
+        <p>The page you are looking for was moved, removed, renamed or never existed.</p>
+        <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Your Email">
+        <button class="btn " type="button"><i class="fas fa-search"></i></button>
+        </div>
+        <a class="default-button" href="/">Take Me Home <i class="fas fa-arrow-right"></i></a>
+        </div>
+        </div>
+        </section>
+<%-include("partials/Header.ejs")%>
